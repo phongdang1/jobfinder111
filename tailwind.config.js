@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 /*eslint-env node*/
-const { nextui } = require("@nextui-org/react");
+import { nextui } from "@nextui-org/react";
 
 module.exports = {
   darkMode: ["class"],

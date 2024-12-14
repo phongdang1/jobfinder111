@@ -16,7 +16,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/auth/google": {
-        target: "http://localhost:5000",
+        target: "https://be-jobfinder111.onrender.com",
         changeOrigin: true,
         secure: false,
       },
